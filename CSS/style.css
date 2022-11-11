@@ -8,3 +8,33 @@
 body{
     font-family: 'Roboto', sans-serif; 
 }
+
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    /* border: 2px solid black; */
+    height: 50px;
+}
+
+/* Header */
+
+.header__logo > img{
+    width: 114px;
+    height: 41;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* nav */
+.nav__item{
+    text-decoration: none;
+    color: 232E35;
+    margin-right: 56px;
+}
+
+/* nav end */
+/* Header end */
