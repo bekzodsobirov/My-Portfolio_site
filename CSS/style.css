@@ -18,6 +18,13 @@ body{
 
 /* Header */
 
+.header{
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .header__logo > img{
     width: 114px;
     height: 41;
@@ -31,10 +38,55 @@ body{
 
 /* nav */
 .nav__item{
-    text-decoration: none;
-    color: 232E35;
+    text-decoration:none;
+    color: #232E35;
     margin-right: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
 
+.nav__item.active{
+    color: rgb(255, 94, 0);
+}
+
+.header__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 36px;
+    color: #232E35;
+    border: 2px solid #f1f1f1;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow:azure;
+
+}
+
+.resume__button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    
+}
+
+.nav__item:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    
+}
+
+
+
 /* nav end */
+
+.resume__button:hover{
+    color: red;
+    cursor:pointer;
+}
+
+
+
 /* Header end */
