@@ -80,7 +80,15 @@ body{
     
 }
 
-
+.social_media{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 192px;
+    height: 24px;
+    gap: 32px;
+    margin-top: 20px;
+}
 
 /* nav end */
 
