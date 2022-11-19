@@ -167,7 +167,83 @@ body{
 
 /* Header end */
 
-.test{
-    height: 500px;
-    background-color: rgb(233, 136, 10, 0.5);
+/* About */
+
+.About{
+    width:1440px;
+    height:774;
+    margin-top:30px;
+    
+    
 }
+
+.section_title{
+    width:240px;
+    height:78px;
+    /* background-color:green; */
+    margin: 0px auto;
+    position:relative;
+    top:150px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    
+}
+
+.About_line{
+    background-color:black;
+    width: 16px;
+    height: 2px;
+}
+
+.about_title{
+    color:#656D72;
+    width: 194px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+}
+
+.tag_title{
+    position: absolute;
+    width: 240px;
+    height: 45px;
+    left: 0px;
+    top: 45px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+
+    /* Cinder */
+    color: #232E35;
+}
+
+.about_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 56px;
+    position: absolute;
+    width: 1195px;
+    height: 294px;
+    
+
+
+}
+
+.ab_item{
+    width: 361px;
+    height: 294px;
+}
+
+
+/* ABout end */
